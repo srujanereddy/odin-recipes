@@ -1,0 +1,31 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.heading {
+    background-color: #d8dcff;
+    text-align: center;
+    font-size: 50px;
+}
+
+#ingredients, #steps{
+    font-size: 40px;
+}
+
+#ingredients{
+    background-color: #aeadf0;
+}
+
+#steps{
+    background-color: #565676;
+}
+
+.list{
+    background-color: #c38d94;
+    font-size: 20px;
+}
+
+.home{
+    background-color: black;
+    color: white;
+}
