@@ -1,4 +1,9 @@
+*{
+    box-sizing: border-box;
+}
+
 body {
+    background-color: azure;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -6,6 +11,8 @@ body {
     background-color: #d8dcff;
     text-align: center;
     font-size: 50px;
+    padding: 15px;
+    border: dashed black;
 }
 
 #ingredients, #steps{
@@ -23,9 +30,38 @@ body {
 .list{
     background-color: #c38d94;
     font-size: 20px;
+    padding: 15px;
 }
 
 .home{
     background-color: black;
     color: white;
+}
+
+.item{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.link{ 
+    background-color: #c38d94;
+    padding: 10px 15px;
+    color: black;
+    border: dashed black;
+    margin: 0 auto;
+}
+
+.main-list{
+    margin: auto;
+    display: inline-block;
+    background-color:bisque;
+    text-align: center;
+}
+
+.centre-list{
+    display: table;
+    margin: 0 auto;
+    padding: 15px;
+    border: dashed black;
+    background-color: bisque;
 }
